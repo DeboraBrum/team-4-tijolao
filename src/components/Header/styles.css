@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_titulo {
+  color: white;
+  background-color: black;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_detalhes {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header_detalhes > span {
+  background-color: black;
+}

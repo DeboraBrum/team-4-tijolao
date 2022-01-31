@@ -1,0 +1,29 @@
+.visor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: 200px;
+
+    background-color: #77A47E;
+    padding: 20px;
+
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    gap: 20px;
+
+    border-radius: 10px;
+
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-weight: bold;
+    font-size: 1px;
+    color: white;
+}
+
+.visor > span {
+  color: white;
+  font-size: 25px;
+}

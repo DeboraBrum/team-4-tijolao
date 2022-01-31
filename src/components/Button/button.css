@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.button{
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 48px;
+  height: 36px;
+  background-color: #6e6e6e;
+  color: black;
+  border-radius: 18px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:hover{
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+.letters-btn {
+  font-size: 10px;
+  margin-top: 16px;
+}
