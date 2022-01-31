@@ -1,5 +1,4 @@
 function decoder(codigo) {
-    // codigo = ["333", "22", "2"]
     const letras = {
         2: "a",
         22: "b",
